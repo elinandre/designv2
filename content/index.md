@@ -1,25 +1,28 @@
 ---
 title: "Min fina titel"
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
+
+
 ---
 Min me-sida i kursen design
 =========================
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/badrock.jpg?w=500" class="right" caption="Lyckan efter bad-rock -89 i Varberg"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Denna sida är en liten presentation av vem jag, Elin, är.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Född och uppvuxen i Västsverige, Göteborgstrakten, och i en familj där musik har varit ständigt närvarande. Faktum är att det skrevs en ironisk tidningskrönika om min familj på 80-talet där skribenten gladeligen drev med våra blockflöjtsensembler och märkliga allsångshäften. Ja ja, jag tog väl inte någon större skada av att växa upp med ett soundtrack som rörde sig sömlöst mellan barockmusik, Beatles och Monica Z. Är idag tacksam för min uppväxt som var lite utanför boxen, men som gav mig ett stort intresse och kunnande inom musikområdet.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Jag har jobbat som musiklärare i 15 år, men håller idag på att skola om mig till arkivarie. I den processen pyntar jag även mina kunskaper med lite programmering, som jag tänker kan vara användbart i arkivsvängen.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
-
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+På vägen har jag lärt mig att programmering inte är helt enkelt, speciellt inte om man kastar sig in i ett bth-kurspaket utan några som helst förkunskaper. Men jag gör så gott jag kan, kul att lära sig nytt hur som helst!
