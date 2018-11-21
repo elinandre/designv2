@@ -1,3 +1,3 @@
-#### Hitta mig på GitHub
+#### Elin på GitHub
 
-Här är en länk till [repot för me/redovisa på GitHub](https://github.com/elinandre/designv2).
+- [repot för me/redovisa på GitHub](https://github.com/elinandre/designv2)

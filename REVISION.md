@@ -1,6 +1,13 @@
 Revision / history
 ========================
 
+
+v2.0.0 (2018-11-21)
+------------------------
+
+* Adding responsive style, layout with columns, improved content.
+
+
 v1.0.1 (2018-11-14)
 ------------------------
 

@@ -1,3 +1,3 @@
-#### Footer col 2
+#### Inspiration
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Varför är det så konstiga färger i stylen? [Piet Mondrian](https://www.wikiart.org/en/piet-mondrian/place-de-la-concorde-1943)

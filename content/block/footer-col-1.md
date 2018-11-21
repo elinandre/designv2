@@ -1,3 +1,3 @@
-#### Footer col 1
+#### Bättre design?
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Hittar du [här](https://webflow.com/blog/19-web-design-trends-for-2018).

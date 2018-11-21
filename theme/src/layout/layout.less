@@ -1,0 +1,123 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+.inner-wrap,
+.inner-wrap-flash {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.site-logo {
+    display: none;
+}
+
+.wrap-all {
+//    max-width: 800px;
+    margin: 0 auto;
+    background-color: beige;
+}
+
+.article {
+    overflow: auto;
+}
+
+/*
+.region-main {
+    margin-left: none;
+    margin-right: none;
+}*/
+
+.right {
+    float: right;
+}
+
+.figure.right {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.region-flash {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* tre kolumners layout. main, and sidebars
+*/
+
+.inner-wrap.inner-wrap-main {
+    overflow: auto;
+}
+/*.inner-wrap.main {
+    overflow: auto;
+}*/
+
+/*
+.wrap-sidebar.region-sidebar-left.has-sidebar-left.has-sidebar {
+    width: 30%;
+    float: left;
+}
+
+.region-main.has-sidebar-left.has-sidebar {
+    width: 70%;
+    float: left;
+} */
+
+.figure {
+    float: left;
+    width: 400px;
+}
+
+
+.region-main {
+    width: 70%;
+    margin-left: 10%;
+    float: left;
+    overflow: auto;
+
+    &.has-sidebar {
+        margin-left: 0;
+    }
+
+    &.has-sidebar-left.has-sidebar-right{
+        width: 60%;
+    }
+}
+
+.region-sidebar-right,
+.region-sidebar-left {
+    width: 30%;
+//    margin-left: 10%;
+    float: left;
+//    overflow: auto;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    width: 20%;
+}
+
+/* byline */
+.author-byline {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.figure.left {
+    display: none;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+}

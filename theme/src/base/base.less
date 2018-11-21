@@ -1,0 +1,52 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+@bgColorHtml: #d0def4;
+@bgColorBody: #e6e7e8;
+@colorBody: #443B3B;
+@fontFamilyBody: "M PLUS Rounded 1c", sans-serif;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    font: 100.01%/1 @fontFamilyBody;
+}
+
+img {
+    max-width: 100%;
+}
+
+//div.inner-wrap.inner-wrap-flash {
+//    overflow: hidden;
+//}
+
+//ul.my-navbar.rm-default-rm-desktop {
+//    display: table;
+//    }
+//    li {
+//        display: inline;
+//        /margin-right: 25px;
+//}
+
+p,
+li {
+    font-size: 1em;
+}
+
+h1 {
+    font-style: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: none;
+}
