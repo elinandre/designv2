@@ -78,21 +78,14 @@
 }
 html {
   overflow-y: scroll;
-  background-color: #d0def4;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #990033;
-  background-color: #cc0000;
   font: 100.01%/1 "M PLUS Rounded 1c", sans-serif;
 }
 img {
   max-width: 100%;
-}
-p,
-li {
-  font-size: 1em;
 }
 h1 {
   font-style: bold;

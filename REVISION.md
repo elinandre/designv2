@@ -1,6 +1,11 @@
 Revision / history
 ========================
 
+v3.0.0 (2018-11-28)
+---------------------------
+
+* Adding grid (horizontal and vertical), improved responsiveness, new style.
+
 
 v2.0.0 (2018-11-21)
 ------------------------

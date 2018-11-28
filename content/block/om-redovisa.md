@@ -1,3 +1,4 @@
-#### Elin på GitHub
+GitHub
+======================
 
-- [repot för me/redovisa på GitHub](https://github.com/elinandre/designv2)
+- [repot för me/redovisa](https://github.com/elinandre/designv2)

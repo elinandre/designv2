@@ -1,0 +1,215 @@
+/*
+Vgrid layout */
+
+.row {
+    #desinax-vgrid.row();
+    margin-bottom: 12px;
+    //background-color: #f2f2f2;
+}
+
+/**
+* Header layout
+*/
+
+.inner-wrap {
+    #desinax-vgrid.grid(1100px);
+}
+
+.inner-wrap-header, {
+//.inner-wrap-footer
+    #desinax-vgrid.grid(100%);
+    font-family: "Didact Gothic";
+    font-size: 1.2em;
+}
+
+.vgrid .inner-wrap {
+    @gridImage: "../img/grid_24x30x10-nomargin.png";
+    //@gridImage: "../../img/grid_12x60x20-nomargin.png";
+    #desinax-vgrid.showGrid(@gridImage, 1100px);
+
+    &.inner-wrap-header {
+        #desinax-vgrid.showGrid(@gridImage);
+    }
+}
+
+.region-flash {
+    #desinax-vgrid.showGrid(@columns);
+    display: inline;
+    float: left;
+}
+
+.region-breadcrumb {
+    #desinax-vgrid.showGrid(@columns);
+}
+
+.region-header-col-1,
+.region-header-col-3, {
+    #desinax-vgrid.column(5);
+    //width: 20%;
+    //float: left;
+}
+
+.region-header-col-2 {
+    #desinax-vgrid.column(14);
+    //width: 60%;
+    //float: left;
+    text-align: center;
+}
+
+// Check this out. Wrong place below?
+
+.wrap-all {
+    //margin-left: 5%;
+    //margin-right: 5%;
+    //margin-top: 0 auto;
+    //margin-bottom: 0 auto;
+    background-color: white;
+}
+
+.outer-wrap-header{
+    //.clearfix();
+}
+
+
+.site-logo {
+    display: none;
+}
+
+//.wrap-all {
+//    //margin: 0 auto;
+//    background-color: beige;
+//}
+
+.article {
+//    overflow: auto;
+}
+
+.right {
+    float: right;
+}
+
+.figure.right {
+    margin-top: 12px;
+    display: block;
+//    font-size: 1em;
+    font-style: italic;
+}
+
+/* tre kolumners layout. main, and sidebars
+*/
+
+//.inner-wrap.inner-wrap-main {
+    //overflow: auto;
+// }
+
+
+.region-main {
+    #desinax-vgrid.column(@columns * 3 / 4);
+    #desinax-vgrid.push(2);
+
+    &.has-sidebar {
+        #desinax-vgrid.push(0);
+    }
+
+    &.has-sidebar-right{
+        #desinax-vgrid.column(@columns * 3 / 4 - 1);
+    }
+    &.has-sidebar-left.has-sidebar-right{
+        #desinax-vgrid.column(@columns - 10);
+    }
+}
+
+.region-sidebar-right,
+.region-sidebar-left {
+    #desinax-vgrid.column(@columns * 1 / 4);
+}
+
+.region-sidebar-right {
+    #desinax-vgrid.push(1);
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    #desinax-vgrid.column(@columns * 1 / 4 - 1);
+}
+
+.toc,
+.block {
+    font-family: "Didact Gothic";
+}
+
+//Responsive 1,2,3 columns
+@media screen and (max-width: 1000px) {
+    .region-main {
+        #desinax-vgrid.column(@columns);
+
+        &.has-sidebar-left.has-sidebar-right{
+            #desinax-vgrid.column(@columns);
+        }
+    }
+
+    .region-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+    .region-sidebar-left.has-sidebar-right,
+    .region-sidebar-right.has-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .region-main.has-sidebar-right{
+            #desinax-vgrid.column(@columns);
+    }
+    .region-sidebar-right {
+        #desinax-vgrid.column(@columns);
+        #desinax-vgrid.push(0);
+    }
+}
+
+/* byline */
+
+.figure.left {
+    display: none;
+}
+.author-byline {
+    font-size: 1em;
+    font-family: "Didact Gothic";
+    font-style: italic;
+}
+
+.outer-wrap-footer {
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: #B6BDBE;
+}
+
+.inner-wrap-footer {
+    #desinax-vgrid.grid(1100px);
+    font-family: "Didact Gothic";
+    font-size: 1.2em;
+    margin-top: 12px;
+}
+
+
+.footer-column {
+     #desinax-vgrid.column(@columns / 3);
+     color: #ffffff;
+//     background-color: #10114c;
+    //width: 33%;
+    //float: left;
+}
+
+//footer columns responsive, collapsing at 500
+@media screen and (max-width: 500px) {
+    .footer-column {
+        #desinax-vgrid.column(@columns);
+    }
+}
+
+//footer copyright
+.site-footer {
+    #desinax-vgrid.column(@columns);
+    margin-top: 12px;
+    color: #ffffff;
+}
