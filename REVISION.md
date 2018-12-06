@@ -1,6 +1,11 @@
 Revision / history
 ========================
 
+v4.0.0 (2018-11-28)
+---------------------------
+
+* Adding 3 new styles, a report and general improvements.
+
 v3.0.0 (2018-11-28)
 ---------------------------
 
