@@ -1,0 +1,78 @@
+/*!
+ * Stylesheet for colorful theme.
+ *
+ * This stylesheet is for the design course and kmom02 where we use LESS.
+ */
+
+@import "kmom04.less";
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One');
+
+//@backgroundColor: #0A0436;
+@backgroundColor: #FFFFFF;
+@textColor: #470037; //#8F9194;
+@fontFamilyBody: "Assistant", "sans-serif";
+@fontFamilyHeading: "Assistant", "sans-serif";
+@accentColor: #47740C;   // #BF5700;
+@nicePink: #F199BE;  //#EA85AF;
+
+//p {
+//    font-family: @fontFamilyBody;
+//}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: @fontFamilyHeading;
+    color: #FFAA00;
+}
+
+body {
+    background-color: @backgroundColor;
+    font-family: @fontFamilyBody;
+    color: @textColor;
+}
+
+.wrap-all {
+    background-color: @backgroundColor;
+    color: @textColor;
+}
+
+.inner-wrap-header {
+    background-color: @nicePink;
+    color: @accentColor;
+}
+
+a {
+    color: @textColor;
+    font-family: @fontFamilyBody;
+}
+
+.author-byline {
+    font-size: 1.2em;
+}
+
+.block {
+    font-family: @fontFamilyBody;
+    color: @accentColor;
+}
+
+.outer-wrap-footer {
+    background-color: @nicePink;
+}
+
+.inner-wrap-footer h4 {
+    color: @accentColor;
+}
+
+/* .footer-column {
+    font-family: @fontFamilyBody;
+    color: #FFFFFF;
+}
+
+.footer-column a {
+    color: @accentColor;
+}
+
+.site-footer {
+    font-family: @fontFamilyBody;
+    color: #FFFFFF;
+} */

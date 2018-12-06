@@ -1,5 +1,10 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for dark theme.
+ *
+ * This stylesheet is for the design course and kmom02 where we use LESS.
+ */
+/*!
+ * Stylesheet for design kmom04.
  *
  * This stylesheet is for the design course and kmom02 where we use LESS.
  */
@@ -4321,62 +4326,6 @@ template {
 /**
  * Internal self contained modules, save in directory module/.
  */
-/*!
- * Stylesheet for design kmom01.
- *
- * This stylesheet is for the design course and kmom01. Fill it with style
- * to style up the website so it is useable.
- */
-/* Hide submenu, leave this to kmom02 */
-/*.rm-desktop ul {
-    display: none;
-}*/
-/* Hide responsive/mobile menu, leave this to kmom02 */
-/*.rm-navbar-max {
-    display: none;
-}*/
-/*.region-main {
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-}
-
-.right {
-    float: right;
-}
-
-.figure.right {
-    font-size: 0.8em;
-    font-style: italic;
-}
-
-.footer-column {
-    width: 33%;
-    float: left;
-}
-
-.region-flash {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.author-byline {
-    font-size: 0.8em;
-    font-style: italic;
-}
-
-.figure.left {
-    display: none;
-} */
-/**
- * Style for the stylechooser.
- */
-/**
- * Variables
- */
-/**
- * Style
- */
 /**
  * Base style to affect HTML elements on a general scale.
  */
@@ -4389,7 +4338,7 @@ html {
 body {
   margin: 0;
   padding: 1em;
-  font: 16px/1.5 "Libre Baskerville", "sans-serif";
+  font: 16px/1.5 "Cabin", "sans-serif";
 }
 h1,
 h2,
@@ -4397,7 +4346,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Permanent Marker", "serif";
+  font-family: "serif";
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5302,20 +5251,50 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * My own settings, not currently in their own module.
  */
 @font-face {
-  font-family: 'Libre Baskerville';
+  font-family: 'Cabin';
   font-style: normal;
   font-weight: 400;
-  src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(https://fonts.gstatic.com/s/librebaskerville/v5/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxY.ttf) format('truetype');
+  src: local('Cabin'), local('Cabin-Regular'), url(https://fonts.gstatic.com/s/cabin/v12/u-4x0qWljRw-Pd8w__g.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Permanent Marker';
+  font-family: 'Yeseva One';
   font-style: normal;
   font-weight: 400;
-  src: local('Permanent Marker Regular'), local('PermanentMarker-Regular'), url(https://fonts.gstatic.com/s/permanentmarker/v7/Fh4uPib9Iyv2ucM6pGQMWimMp004La2Ceg.ttf) format('truetype');
+  src: local('Yeseva One Regular'), local('YesevaOne-Regular'), url(https://fonts.gstatic.com/s/yesevaone/v12/OpNJno4ck8vc-xYpwWWxli1VXg.ttf) format('truetype');
 }
-@font-face {
-  font-family: 'Didact Gothic';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Didact Gothic Regular'), local('DidactGothic-Regular'), url(https://fonts.gstatic.com/s/didactgothic/v11/ahcfv8qz1zt6hCC5G4F_P4ASlUuYow.ttf) format('truetype');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Yeseva One", "serif";
+}
+body {
+  background-color: #021833;
+  font-family: "Cabin", "sans-serif";
+  color: #8F9194;
+}
+.wrap-all {
+  background-color: #021833;
+  color: #8F9194;
+}
+a {
+  color: #8F9194;
+  font-family: "Cabin", "sans-serif";
+}
+.author-byline {
+  font-size: 1.2em;
+}
+.block,
+.footer-column {
+  font-family: "Cabin", "sans-serif";
+  color: #7A5C20;
+}
+.footer-column a {
+  color: #7A5C20;
+}
+.site-footer {
+  font-family: "Cabin", "sans-serif";
+  color: #7A5C20;
 }

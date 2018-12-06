@@ -1,0 +1,59 @@
+/*!
+ * Stylesheet for dark theme.
+ *
+ * This stylesheet is for the design course and kmom02 where we use LESS.
+ */
+
+@import "kmom04.less";
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One');
+
+//@backgroundColor: #0A0436;
+@backgroundColor: #021833;
+@textColor: #8F9194;
+@fontFamilyBody: "Cabin", "sans-serif";
+@fontFamilyHeading: "Yeseva One", "serif";
+@accentColor: #7A5C20;   // #BF5700;
+
+//p {
+//    font-family: @fontFamilyBody;
+//}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: @fontFamilyHeading;
+}
+
+body {
+    background-color: @backgroundColor;
+    font-family: @fontFamilyBody;
+    color: @textColor;
+}
+
+.wrap-all {
+    background-color: @backgroundColor;
+    color: @textColor;
+}
+
+a {
+    color: @textColor;
+    font-family: @fontFamilyBody;
+}
+
+.author-byline {
+    font-size: 1.2em;
+}
+
+.block,
+.footer-column {
+    font-family: @fontFamilyBody;
+    color: @accentColor;
+}
+
+.footer-column a {
+    color: @accentColor;
+}
+
+.site-footer {
+    font-family: @fontFamilyBody;
+    color: @accentColor;
+}
