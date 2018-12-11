@@ -4387,7 +4387,7 @@ template {
   font-family: 'M PLUS Rounded 1c';
   font-style: normal;
   font-weight: 400;
-  src: local('M PLUS Rounded 1c'), local('MPLUSRounded1c-Regular'), url(https://fonts.gstatic.com/s/mplusrounded1c/v5/VdGEAYIAV6gnpUpoWwNkYvrugw9RuMWBxLs.ttf) format('truetype');
+  src: local('M PLUS Rounded 1c'), local('MPLUSRounded1c-Regular'), url(https://fonts.gstatic.com/s/mplusrounded1c/v6/VdGEAYIAV6gnpUpoWwNkYvrugw9RuMWBxLs.ttf) format('truetype');
 }
 html {
   overflow-y: scroll;

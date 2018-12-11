@@ -5,13 +5,31 @@
  */
 
 @import "kmom04.less";
+@import "base/base_kmom05.less";
+@import "layout/layout_footer.less";
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Montserrat+Subrayada');
 /**
  * Figure and figcaption for images and other media using figure/figcaption
  */
-@import "asciinema.less";
-@import "codepen.less";
-@import "figure.less";
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+/* // Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+} */
 
 //@backgroundColor: #0A0436;
 @backgroundColor: #FFFFFF;
@@ -26,6 +44,7 @@
 //    font-family: @fontFamilyBody;
 //}
 
+/* move to base kmom05
 h1, h2, h3, h4, h5, h6 {
     font-family: @fontFamilyHeading;
     color: @textColor2;
@@ -35,13 +54,14 @@ body {
     background-color: @backgroundColor;
     font-family: @fontFamilyBody;
     color: @textColor;
-}
+} */
 
 .wrap-all {
     background-color: @backgroundColor;
     color: @textColor;
 }
 
+/* move to base kmom05
 a {
     color: @discreteColor;
     font-family: @fontFamilyBody;
@@ -49,7 +69,7 @@ a {
 
 a:hover {
     color: @textColor2;
-}
+} */
 
 .article a {
     color: @textColor2;
@@ -60,6 +80,7 @@ a:hover {
 //    font-size: 1em;
 }
 
+/* to layout footer
 .outer-wrap-footer {
     background-color: @backgroundColor;
 }
@@ -78,4 +99,4 @@ a:hover {
 .site-footer {
     font-family: @fontFamilyBody;
     color: @discreteColor;
-}
+} */

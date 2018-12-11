@@ -1,7 +1,20 @@
 Revision / history
 ========================
 
-v4.0.0 (2018-11-28)
+
+v5.0.0 (2018-12-11)
+---------------------------
+* Adding a blog and report on load-time.
+
+v4.1.1 (2018-12-11)
+---------------------------
+* New version after having updated composer, npm and dbwebb.
+
+v4.1.0 (2018-12-11)
+---------------------------
+* More of a backup just in case. Some content added.
+
+v4.0.0 (2018-12-06)
 ---------------------------
 
 * Adding 3 new styles, a report and general improvements.

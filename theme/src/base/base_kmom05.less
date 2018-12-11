@@ -1,0 +1,40 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+//@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: @fontFamilyHeading;
+    color: @textColor2;
+}
+
+body {
+    background-color: @backgroundColor;
+    font-family: @fontFamilyBody;
+    color: @textColor;
+}
+
+a {
+    color: @discreteColor;
+    font-family: @fontFamilyBody;
+}
+
+a:hover {
+    color: @textColor2;
+}
