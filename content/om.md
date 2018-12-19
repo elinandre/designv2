@@ -16,7 +16,7 @@ views:
                 type: single
                 route: block/om-redovisa
 ---
-Om
+<img src="img/blabar2.png" alt="blabar" class="blabar"/> Om
 =========================
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
@@ -27,3 +27,5 @@ Kursen designv2 innehåller enligt kursutvecklarna själva:
 Känns som ett spännande innehåll. Personligen gillar jag att jobba med form, layout och bild. Så själva design-delen känns kanon.
 
 [FIGURE src=img/Ombild.png? caption="Flow-läge"]
+
+<img src="img/blad2.png" alt="blad" class="blad"/>

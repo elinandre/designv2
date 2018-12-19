@@ -1,4 +1,9 @@
 /*!
+ * Stylesheet for kmom06 - designprinciper.
+ *
+ * This stylesheet is for the design course and kmom02 where we use LESS.
+ */
+/*!
  * Stylesheet for design kmom04.
  *
  * This stylesheet is for the design course and kmom02 where we use LESS.
@@ -4333,7 +4338,7 @@ html {
 body {
   margin: 0;
   padding: 1em;
-  font: 16px/1.5 "sans-serif";
+  font: 16px/1.5 "Asap", "sans-serif";
 }
 h1,
 h2,
@@ -5244,3 +5249,212 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
  * My own settings, not currently in their own module.
  */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+figure.figure,
+figure.asciinema,
+figure.codepen,
+figure.figure-codepen {
+  display: table;
+  padding: 0;
+  margin: 0;
+  /* Chrome shinks images in td */
+  /* Position the images */
+}
+figure.figure img {
+  max-width: 100%;
+  display: block;
+}
+figure.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+}
+figure.figure figcaption p {
+  margin-top: 0;
+  font-style: italic;
+}
+figure.figure td img {
+  max-width: none;
+}
+figure.figure.left {
+  float: left;
+  margin-right: 8px;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 8px;
+}
+figure.figure.center {
+  clear: both;
+  margin: auto;
+}
+figure.figure.center figcaption {
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  figure.figure.w50 {
+    width: 300px;
+  }
+  figure.figure.w25 {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 550px) {
+  figure.figure.w50 {
+    width: 225px;
+  }
+}
+@media screen and (max-width: 450px) {
+  figure.figure.w50 {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 400px) {
+  figure.figure.w50 {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 320px) {
+  figure.figure.w50 {
+    min-width: 100%;
+  }
+  figure.figure.left,
+  figure.figure.right {
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+figure.asciinema {
+  display: block;
+}
+figure.asciinema figcaption {
+  display: block;
+}
+figure.asciinema .asciicast {
+  margin: 0 !important;
+}
+figure.codepen,
+figure.figure-codepen {
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Patua One", "serif";
+  color: #32368C;
+}
+body {
+  background-color: #f9f9f7;
+  font-family: "Asap", "sans-serif";
+  color: #060606;
+}
+a {
+  color: #BDBED1;
+  font-family: "Asap", "sans-serif";
+}
+a:hover {
+  color: #32368C;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+/**
+* Header layout
+*/
+.outer-wrap-footer {
+  background-color: #f9f9f7;
+}
+.yellowdot {
+  display: none;
+}
+.block,
+.footer-column {
+  font-family: "Asap", "sans-serif";
+  background-color: #f9f9f7;
+  color: #060606;
+}
+.footer-column a {
+  color: #32368C;
+}
+.footer-column a:hover {
+  color: #e03121;
+}
+.site-footer {
+  font-family: "Asap", "sans-serif";
+  color: #BDBED1;
+}
+.footerfav {
+  display: none;
+}
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Asap Regular'), local('Asap-Regular'), url(https://fonts.gstatic.com/s/asap/v8/KFOoCniXp96ayzse5Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Patua One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Patua One'), local('PatuaOne-Regular'), url(https://fonts.gstatic.com/s/patuaone/v8/ZXuke1cDvLCKLDcimxB44_lr.ttf) format('truetype');
+}
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+/**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
+.wrap-all {
+  background-color: #f9f9f7;
+  color: #060606;
+}
+.rm-desktop ul {
+  background-color: white;
+}
+.article:hover {
+  background-color: #FFFFFF;
+}
+.article a {
+  color: #32368C;
+}
+.blabar {
+  max-height: 60px;
+}
+.blabar:hover {
+  -webkit-transform: rotateZ(-30deg);
+  -ms-transform: rotateZ(-30deg);
+  transform: rotateZ(-30deg);
+}
+.blad {
+  max-height: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.5;
+}
+.blad:hover {
+  -webkit-transform: rotateZ(-20deg);
+  -ms-transform: rotateZ(-20deg);
+  transform: rotateZ(-20deg);
+}
+.author-byline {
+  display: none;
+}

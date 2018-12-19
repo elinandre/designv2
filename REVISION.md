@@ -1,6 +1,10 @@
 Revision / history
 ========================
 
+v6.0.0 (2018-12-19)
+-------------------------
+* New styles, reports on design elements and principles.
+
 v5.0.1 (2018-12-12)
 -------------------------
 * Fixing misspelling.

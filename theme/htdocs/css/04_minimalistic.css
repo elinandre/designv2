@@ -4728,8 +4728,7 @@ Vgrid layout */
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
-  font-family: "Didact Gothic";
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5254,13 +5253,13 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   font-family: 'IBM Plex Sans Condensed';
   font-style: normal;
   font-weight: 400;
-  src: local('IBM Plex Sans Condensed'), local('IBMPlexSansCond'), url(https://fonts.gstatic.com/s/ibmplexsanscondensed/v4/Gg8lN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHYapyKs.ttf) format('truetype');
+  src: local('IBM Plex Sans Condensed'), local('IBMPlexSansCond'), url(https://fonts.gstatic.com/s/ibmplexsanscondensed/v5/Gg8lN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHYapyKs.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Montserrat Subrayada';
   font-style: normal;
   font-weight: 400;
-  src: local('MontserratSubrayada-Regular'), url(https://fonts.gstatic.com/s/montserratsubrayada/v7/U9MD6c-o9H7PgjlTHThBnNHGVUORwteQQH8MaOM.ttf) format('truetype');
+  src: local('MontserratSubrayada-Regular'), url(https://fonts.gstatic.com/s/montserratsubrayada/v8/U9MD6c-o9H7PgjlTHThBnNHGVUORwteQQH8MaOM.ttf) format('truetype');
 }
 h1,
 h2,

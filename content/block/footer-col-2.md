@@ -1,3 +1,5 @@
+<img src="img/yellowdot.png" width=60 height=60&crop-to-fit alt="yellow dot" class="yellowdot"/>
+
 #### Inspiration
 
 Varför är det så konstiga färger i stylen?

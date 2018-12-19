@@ -1,3 +1,5 @@
+<img src="img/yellowdot.png" width=60 height=60&crop-to-fit alt="yellow dot" class="yellowdot"/>
+
 #### Musik
 
 Lyssna på bra musik medan du jobbar:

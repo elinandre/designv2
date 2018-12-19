@@ -30,7 +30,7 @@ views:
                 view: blog-list
 
 ---
-Dagens bild
+<img src="img/blabar2.png" alt="blabar" class="blabar"/> Dagens bild
 ===========================
 
 Bilder, bilder och åter bilder.

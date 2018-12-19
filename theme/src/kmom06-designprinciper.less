@@ -1,0 +1,83 @@
+/*!
+ * Stylesheet for kmom06 - designprinciper.
+ *
+ * This stylesheet is for the design course and kmom02 where we use LESS.
+ */
+
+//@import "04_minimalistic.less";
+@import "kmom04.less";
+@import "base/base_kmom05.less";
+@import "layout/layout_footerprinciper.less";
+//@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Montserrat+Subrayada');
+@import url('https://fonts.googleapis.com/css?family=Asap');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+
+//@backgroundColor: #0A0436;
+@backgroundColor: #f9f9f7;
+@textColor: #060606;
+@textColor2: #32368C;
+@discreteColor: #BDBED1;
+//@fontFamilyBody: "IBM Plex Sans Condensed", "sans-serif";
+//@fontFamilyHeading: "IBM Plex Sans Condensed", "sans-serif";
+@fontFamilyBody: "Asap", "sans-serif";
+@fontFamilyHeading: "Patua One", "serif";
+
+
+.wrap-all {
+    background-color: @backgroundColor;
+    color: @textColor;
+}
+
+.rm-desktop ul {
+    background-color: white;
+}
+
+//.my-navbar li:hover {
+//    background-color: white;
+//    box-shadow: 10px 10px 2px #565554;
+//    color: #e03121;
+//}
+
+.article:hover {
+    background-color: #FFFFFF;
+}
+
+.article a {
+    color: @textColor2;
+}
+
+.blabar {
+    max-height: 60px;
+}
+
+.blabar:hover {
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+}
+
+.blad {
+    max-height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5;
+}
+
+.blad:hover {
+    -webkit-transform: rotateZ(-20deg);
+    -ms-transform: rotateZ(-20deg);
+    transform: rotateZ(-20deg);
+}
+
+.author-byline {
+    display: none;
+}

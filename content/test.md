@@ -18,7 +18,7 @@ views:
 
 
 ---
-Test
+<img src="img/blabar2.png" alt="blabar" class="blabar"/> Test
 =========================
 
 Detta innehåll är skrivet i markdown, vilket känns som ett genialiskt sätt att skriva. Kod och text, allt funkar tillsammans som den mest fantastiska blandade grönsallad du kan föreställa dig. Du hittar innehållet i filen `content/test.md`. Ingredienserna till grönsalladen hittar du [här](https://olivehummer.ellematovin.se/70-tals-sallad/).
@@ -38,3 +38,5 @@ Vad menar han egentligen, Jonathan Johansson? Får läsa igen nån gång, jag gi
 Då har jag testat lite länkar, blockcitat och bilder i markdown. Bye for now.
 
 [FIGURE src=img/Asymmetri.png? w=800]
+
+<img src="img/blad2.png" alt="blad" class="blad"/>

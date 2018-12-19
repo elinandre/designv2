@@ -1,4 +1,14 @@
 /*!
+ * Stylesheet for kmom06 - designelement.
+ *
+ * This stylesheet is for the design course and kmom02 where we use LESS.
+ */
+/*!
+ * Stylesheet for mini theme.
+ *
+ * This stylesheet is for the design course and kmom02 where we use LESS.
+ */
+/*!
  * Stylesheet for design kmom04.
  *
  * This stylesheet is for the design course and kmom02 where we use LESS.
@@ -4333,7 +4343,7 @@ html {
 body {
   margin: 0;
   padding: 1em;
-  font: 16px/1.5 "sans-serif";
+  font: 16px/1.5 "IBM Plex Sans Condensed", "sans-serif";
 }
 h1,
 h2,
@@ -5244,3 +5254,249 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
  * My own settings, not currently in their own module.
  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "IBM Plex Sans Condensed", "sans-serif";
+  color: #32368C;
+}
+body {
+  background-color: #FFFFFF;
+  font-family: "IBM Plex Sans Condensed", "sans-serif";
+  color: #060606;
+}
+.wrap-all {
+  background-color: #FFFFFF;
+  color: #060606;
+}
+a {
+  color: #BDBED1;
+  font-family: "IBM Plex Sans Condensed", "sans-serif";
+}
+a:hover {
+  color: #32368C;
+}
+.article a {
+  color: #32368C;
+}
+.author-byline {
+  display: none;
+}
+.outer-wrap-footer {
+  background-color: #FFFFFF;
+}
+.block,
+.footer-column {
+  font-family: "IBM Plex Sans Condensed", "sans-serif";
+  background-color: #FFFFFF;
+  color: #060606;
+}
+.footer-column a {
+  color: #32368C;
+}
+.site-footer {
+  font-family: "IBM Plex Sans Condensed", "sans-serif";
+  color: #BDBED1;
+}
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+figure.figure,
+figure.asciinema,
+figure.codepen,
+figure.figure-codepen {
+  display: table;
+  padding: 0;
+  margin: 0;
+  /* Chrome shinks images in td */
+  /* Position the images */
+}
+figure.figure img {
+  max-width: 100%;
+  display: block;
+}
+figure.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+}
+figure.figure figcaption p {
+  margin-top: 0;
+  font-style: italic;
+}
+figure.figure td img {
+  max-width: none;
+}
+figure.figure.left {
+  float: left;
+  margin-right: 8px;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 8px;
+}
+figure.figure.center {
+  clear: both;
+  margin: auto;
+}
+figure.figure.center figcaption {
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  figure.figure.w50 {
+    width: 300px;
+  }
+  figure.figure.w25 {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 550px) {
+  figure.figure.w50 {
+    width: 225px;
+  }
+}
+@media screen and (max-width: 450px) {
+  figure.figure.w50 {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 400px) {
+  figure.figure.w50 {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 320px) {
+  figure.figure.w50 {
+    min-width: 100%;
+  }
+  figure.figure.left,
+  figure.figure.right {
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+figure.asciinema {
+  display: block;
+}
+figure.asciinema figcaption {
+  display: block;
+}
+figure.asciinema .asciicast {
+  margin: 0 !important;
+}
+figure.codepen,
+figure.figure-codepen {
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "IBM Plex Sans Condensed", "sans-serif";
+  color: #32368C;
+}
+body {
+  background-color: #FFFFFF;
+  font-family: "IBM Plex Sans Condensed", "sans-serif";
+  color: #060606;
+}
+a {
+  color: #BDBED1;
+  font-family: "IBM Plex Sans Condensed", "sans-serif";
+}
+a:hover {
+  color: #32368C;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+/**
+* Header layout
+*/
+.outer-wrap-footer {
+  background-color: #FFFFFF;
+}
+/*
+.footer-column,
+.site-footer {
+    background: url(image/textur.png) no-repeat center center fixed;
+} */
+.block,
+.footer-column {
+  font-family: "IBM Plex Sans Condensed", "sans-serif";
+  background-color: #FFFFFF;
+  color: #060606;
+}
+.footer-column a {
+  color: #32368C;
+}
+.footer-column a:hover {
+  color: #e03121;
+}
+.site-footer {
+  font-family: "IBM Plex Sans Condensed", "sans-serif";
+  color: #BDBED1;
+}
+@font-face {
+  font-family: 'IBM Plex Sans Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('IBM Plex Sans Condensed'), local('IBMPlexSansCond'), url(https://fonts.gstatic.com/s/ibmplexsanscondensed/v5/Gg8lN4UfRSqiPg7Jn2ZI12V4DCEwkj1E4LVeHYapyKs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat Subrayada';
+  font-style: normal;
+  font-weight: 400;
+  src: local('MontserratSubrayada-Regular'), url(https://fonts.gstatic.com/s/montserratsubrayada/v8/U9MD6c-o9H7PgjlTHThBnNHGVUORwteQQH8MaOM.ttf) format('truetype');
+}
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+/**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
+.wrap-all {
+  background-color: #FFFFFF;
+  color: #060606;
+}
+.rm-desktop ul {
+  background-color: white;
+}
+.my-navbar li:hover {
+  background-color: white;
+  box-shadow: 10px 10px 2px #565554;
+  color: #e03121;
+}
+.article a {
+  color: #32368C;
+}
+.blabar {
+  display: none;
+}
+.blad {
+  display: none;
+}
+.block.toc:hover {
+  background-color: #faf9ac;
+}
+.author-byline {
+  display: none;
+}

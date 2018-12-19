@@ -1,0 +1,63 @@
+/*!
+ * Stylesheet for kmom06 - designelement.
+ *
+ * This stylesheet is for the design course and kmom02 where we use LESS.
+ */
+
+@import "04_minimalistic.less";
+//@import "kmom04.less";
+@import "base/base_kmom05.less";
+@import "layout/layout_footer.less";
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Montserrat+Subrayada');
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+
+//@backgroundColor: #0A0436;
+@backgroundColor: #FFFFFF;
+@textColor: #060606;
+@textColor2: #32368C;
+@discreteColor: #BDBED1;
+@fontFamilyBody: "IBM Plex Sans Condensed", "sans-serif";
+@fontFamilyHeading: "IBM Plex Sans Condensed", "sans-serif";
+
+
+.wrap-all {
+    background-color: @backgroundColor;
+    color: @textColor;
+}
+
+.rm-desktop ul {
+    background-color: white;
+}
+
+.my-navbar li:hover {
+    background-color: white;
+    box-shadow: 10px 10px 2px #565554;
+    color: #e03121;
+}
+
+.article a {
+    color: @textColor2;
+}
+
+.blabar {
+    display: none;
+}
+
+.blad {
+    display: none;
+}
+
+.block.toc:hover {
+    background-color: #faf9ac;
+}
+
+.author-byline {
+    display: none;
+//    font-size: 1em;
+}
