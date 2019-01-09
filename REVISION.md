@@ -1,6 +1,10 @@
 Revision / history
 ========================
 
+v10.0.0 (2018-01-09)
+-----------------------------
+* Final report on the design project. 
+
 v6.0.0 (2018-12-19)
 -------------------------
 * New styles, reports on design elements and principles.
